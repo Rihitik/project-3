@@ -1,0 +1,47 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State Files
+*.tfstate
+*.tfstate.*
+
+# Terraform Variables
+*.tfvars
+*.tfvars.json
+
+# Crash Logs
+crash.log
+crash.*.log
+
+# Override Files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI Config Files
+terraform.rc
+.terraformrc
+
+# AWS Credentials
+.aws/
+credentials
+config
+
+# SSH Keys
+*.pem
+*.key
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+*.log
